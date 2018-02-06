@@ -10,6 +10,7 @@ import multiprocessing
 BGP_LOOKING_GLASS_URL="https://stat.ripe.net/data/looking-glass/data.json?resource="
 URL_IRREXPLORER = "http://irrexplorer.nlnog.net/json/prefix/"
 IPSETS_PATH = "data/ipsets/subset/"
+IPRESOURCES_PATH = "ftp://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest"
 
 #get the number of objects found in the IRR databases
 def findIRRObjects(prefix):
